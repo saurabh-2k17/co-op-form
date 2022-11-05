@@ -1,0 +1,21 @@
+uuid: 93ff3d60-44bd-4d96-b2ce-4ddd2d3f344d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile
+    - node.type.co_op_form
+  module:
+    - text
+id: node.co_op_form.field_profile
+field_name: field_profile
+entity_type: node
+bundle: co_op_form
+label: Profile
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

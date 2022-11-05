@@ -1,0 +1,19 @@
+uuid: c15bf4b8-bc04-4802-99c5-5f76bced6221
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_name
+    - node.type.co_op_form
+id: node.co_op_form.field_contact_name
+field_name: field_contact_name
+entity_type: node
+bundle: co_op_form
+label: 'Contact Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

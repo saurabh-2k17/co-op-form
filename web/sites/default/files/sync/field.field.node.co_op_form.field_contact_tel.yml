@@ -1,0 +1,19 @@
+uuid: 04fda6b2-2eba-48be-9ee0-0e054a791535
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_tel
+    - node.type.co_op_form
+id: node.co_op_form.field_contact_tel
+field_name: field_contact_tel
+entity_type: node
+bundle: co_op_form
+label: 'Contact Tel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

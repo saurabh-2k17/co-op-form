@@ -1,0 +1,21 @@
+uuid: 6e856637-8023-4e13-9c23-2f685fc4391e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.co_op_form
+  module:
+    - datetime
+id: node.co_op_form.field_date
+field_name: field_date
+entity_type: node
+bundle: co_op_form
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

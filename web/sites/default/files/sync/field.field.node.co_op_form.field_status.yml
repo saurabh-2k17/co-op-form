@@ -1,0 +1,29 @@
+uuid: fc5ec500-9e4b-4f82-b86b-7c4f82c9912e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status
+    - node.type.co_op_form
+    - taxonomy.vocabulary.status
+id: node.co_op_form.field_status
+field_name: field_status
+entity_type: node
+bundle: co_op_form
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      status: status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

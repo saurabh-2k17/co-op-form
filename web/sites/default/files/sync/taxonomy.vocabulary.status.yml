@@ -1,0 +1,8 @@
+uuid: c637f46e-5485-426e-ace7-8ba3106b9861
+langcode: en
+status: true
+dependencies: {  }
+name: Status
+vid: status
+description: 'Shows student application status'
+weight: 0

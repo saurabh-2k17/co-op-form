@@ -1,0 +1,5 @@
+name: CO-OP Common Module
+description: General Customizations
+type: module
+core_version_requirement: ^9
+package: Custom

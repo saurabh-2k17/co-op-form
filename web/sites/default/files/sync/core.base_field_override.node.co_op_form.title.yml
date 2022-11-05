@@ -1,0 +1,18 @@
+uuid: b6062077-410b-4c49-b891-ac9411493643
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.co_op_form
+id: node.co_op_form.title
+field_name: title
+entity_type: node
+bundle: co_op_form
+label: 'Associate ID'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,88 @@
+uuid: 6834a6a6-21c8-4da1-b158-18b525baf64e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.co_op_form.field_company_url
+    - field.field.node.co_op_form.field_contact_email
+    - field.field.node.co_op_form.field_contact_name
+    - field.field.node.co_op_form.field_contact_tel
+    - field.field.node.co_op_form.field_date
+    - field.field.node.co_op_form.field_profile
+    - field.field.node.co_op_form.field_status
+    - node.type.co_op_form
+  module:
+    - datetime
+    - link
+    - text
+    - user
+id: node.co_op_form.default
+targetEntityType: node
+bundle: co_op_form
+mode: default
+content:
+  field_company_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_contact_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_contact_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_contact_tel:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_profile:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_status:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

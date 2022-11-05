@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 6e92453d-0096-4212-be94-8a5e9b98beef
+name: 'CO-OP Form'
+mail: saurabhdev2703@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /job-posting-view
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

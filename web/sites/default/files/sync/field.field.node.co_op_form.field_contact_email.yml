@@ -1,0 +1,19 @@
+uuid: c8e49daa-9ebd-447d-876b-bd38568bfc75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_email
+    - node.type.co_op_form
+id: node.co_op_form.field_contact_email
+field_name: field_contact_email
+entity_type: node
+bundle: co_op_form
+label: 'Contact Email'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

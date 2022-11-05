@@ -1,0 +1,35 @@
+uuid: 95d36bd1-8518-4a0c-8ce7-d373ef1dc847
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.co_op_form
+  module:
+    - comment
+    - contact
+    - devel
+    - filter
+    - node
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access devel information'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create co_op_form content'
+  - 'edit own co_op_form content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'switch users'
+  - 'use text format basic_html'

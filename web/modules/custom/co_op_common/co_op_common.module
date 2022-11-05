@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\node\Entity\Node;
+use Drupal\user\Entity\User;
+
+/**
+ * Implements Hook_form_alter()
+ *
+ * @param $form
+ * @param \Drupal\Core\Form\FormStateInterface $form_state
+ * @param $form_id
+ */
+function co_op_common_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+    $user_id = \Drupal::currentUser()->id();
+    if ($user_id != 1) {
+      if ($form_id == "node_co_op_form_form" || $form_id == "node_co_op_form_edit_form") {
+        $form["field_status"]["#access"] = FALSE;
+      }
+    }
+}

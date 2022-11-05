@@ -1,0 +1,18 @@
+uuid: a30dff03-0963-4596-a486-95a8140a6269
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Job Posting'
+type: job_posting
+description: 'Add a new job posting using it.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
